@@ -1,0 +1,32 @@
+body{
+    background-color: #000;
+}
+
+#titulo{
+    color: red;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#gerar-senha, #escolher-caracteres-da-senha, #copiar-senha {
+    color: red;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+#senha{    
+    color: red;
+    margin: 50px;
+}
+
+#botao-copiar-senha{
+    display: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    
+<body>
+    <h1 id="titulo">Gerador de Senhas</h1>
+    <div id="escolher-caracteres-da-senha">
+        <input type="checkbox" name="escolher-caracteres" id="letras-maiusculas" value="letrasMaiusculas">
+        <label for="letras_maiusculas">Letras Maiúsculas</label>
+        <input type="checkbox" name="escolher-caracteres" id="letras-minusculas" value="letrasMinusculas">
+        <label for="letras_minusculas">Letras Minúsculas</label>
+        <input type="checkbox" name="escolher-caracteres" id="numeros" value="numeros">
+        <label for="letras_minusculas">Números</label>
+    </div>
+
+    <div id="gerar-senha">
+        <select name="Escolha a quantidade caracteres" id="select-quantidade">
+            <option value="4">4 carácteres</option>
+            <option value="5">5 carácteres</option>
+            <option value="6">6 carácteres</option>
+            <option value="7">7 carácteres</option>
+            <option value="8">8 carácteres</option>
+            <option value="9">9 carácteres</option>
+            <option value="10">10 carácteres</option>
+        </select>
+        <button id="botao" type="text">Gerar senha</button>
+        <p id="senha"></p>
+    </div>
+
+    <div id="copiar-senha">
+        <button id="botao-copiar-senha">Copiar senha</button>
+        <p></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
